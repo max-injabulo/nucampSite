@@ -6,7 +6,7 @@ import PartnersList from '../features/partners/PartnersList';
 const AboutPage = () => {
     return (
         <Container>
-            <SubHeader current='AboutPage' />
+            <SubHeader current='About Us' />
             <Row className='row-content'>
                 <Col sm='6'>
                     <h3>
@@ -50,14 +50,14 @@ const AboutPage = () => {
                                 <p>  I will not follow where the path may lead, but I
                                     will go where there is no path, and I will leave
                                     a trail.</p>
-                            </blockquote>
-                            <footer className='blackquote-footer'>
+                            <footer className='blockquote-footer'>
                                 Muriel Strode,{' '}
                                 <cite title='Source Title'>
                                     "Wind-Wafted Wild Flowers" - The Open Court,
                                     1903
                                 </cite>
                             </footer>
+                            </blockquote>
                         </CardBody>
                     </Card>
                 </Col>
