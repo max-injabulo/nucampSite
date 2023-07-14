@@ -1,5 +1,8 @@
 import { Container, Col, Row } from "reactstrap";
 import SubHeader from '../components/SubHeader';
+import ContactForm from '../components/ContactForm';
+
+
 
 
 const ContactPage = () => {
@@ -32,19 +35,20 @@ const ContactPage = () => {
                         <i className='fa fa-envelope-o' /> campsites@nucamp.co
                     </a>
                 </Col>    
-            </Row>     
+            </Row>    
+
+
             <Row className='row-content'>
-                <Col className="xs='12">
+                 <Col xs='12'>
                     <h2>Send Us Your Feedback</h2>
                     <hr />    
                 </Col>    
-                <Col className="md='10">
-                    TBD: ContactForm
-                </Col>    
+                <Col md='10'>
+                    <ContactForm />
+                </Col>  
             </Row>     
         </Container>
     )
 };
  
 export default ContactPage;
-
